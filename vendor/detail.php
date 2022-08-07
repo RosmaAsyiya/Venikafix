@@ -282,6 +282,9 @@ if (isset($_SESSION['username'])){
             ?>
               <!-- <button type="submit" name="submit" class="btn_plus fa-solid fa-heart"> Favorit</button> <br> -->
               <a href=""><button type="submit" name="submit" class="btn_plus"><i class="fa-solid fa-heart"></i> Favorit</button></a> <br>
+
+              <!-- Button Jika Sudah Klik Favorit -->
+              <a href=""><button class="btn_plus2"><i class="fa-solid fa-heart"></i> Favorit</button></a> <br>
             </form>
 
             <!-- <div class = "product-rating">
